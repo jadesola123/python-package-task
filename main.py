@@ -4,7 +4,7 @@ while True:
     user_action = input("Enter R for rock, P for paper, S for scissors): ")
     possible_actions = ["R", "P", "S"]
     computer_action = random.choice(possible_actions)
-    print(f"\nYou chose {user_action}, computer chose {computer_action}.\n")
+    print(f"\nYou chose {user_action}, the computer player chose {computer_action}.\n")
 
     if user_action == computer_action:
         print(f"Both players selected {user_action}. It's a tie!")
